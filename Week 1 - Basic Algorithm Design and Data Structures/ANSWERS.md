@@ -156,9 +156,6 @@ n-1
 Answer
 correct: Review the lecture on Towers of Hanoi, and try to think of this question using induction. From the lecture, in order to solve the tower for all n discs, we have to 'solve' the tower for the top n-1 discs two separate times, and additionally move the bottom disc once. How does this translate to the number of times the second largest disc is moved?
 
-
-**Asymptotics and Divide-and-Conquer**
-**Binary Search and Mergesort**
 **Introduction to Probability**
 
 Consider merging lists two sorted lists A and B of length  and  respectively such that n < m , using the merge function as shown in the lecture slides.
@@ -236,7 +233,7 @@ k/n^2
 k^2/n^2 -correct
 
 Answer
-Correct! The probability of a person p winning the first prize is k/n. Since the names are rechosen for the second prize, there is also a k/n probability of person p winning the second prize. Since these two prizes are chosen independently, then the probability of both of these events happening to person p is k/n *k/n = K^2/n2.
+Correct: The probability of a person p winning the first prize is k/n. Since the names are rechosen for the second prize, there is also a k/n probability of person p winning the second prize. Since these two prizes are chosen independently, then the probability of both of these events happening to person p is k/n *k/n = K^2/n2.
 
 What is the expected number of people who win both prizes?
 
@@ -249,5 +246,5 @@ k/n^2
 k^2/n^2
 
 Answer
-Correct! Let Xi denote whether or not person i wins both prizes (Xi = 1 if person i wins both prizes, and 0 if they do not). Then the expected value $E[Xi]$ is equal to the probability that they win both prizes, orE[Xi] = K^2/n^2 (from the previous question). From the way that we've chosen to define Xi, the sum over all people X=  gives us the number of people who have won both prizes. By linearity of expectation, 
+Correct: Let Xi denote whether or not person i wins both prizes (Xi = 1 if person i wins both prizes, and 0 if they do not). Then the expected value $E[Xi]$ is equal to the probability that they win both prizes, orE[Xi] = K^2/n^2 (from the previous question). From the way that we've chosen to define Xi, the sum over all people X=  gives us the number of people who have won both prizes. By linearity of expectation, 
 
