@@ -1,6 +1,6 @@
 # [PennX: SD3x Algorithm Design And Analysis](https://www.edx.org/course/algorithm-design-analysis-pennx-sd3x)
 
-### [Penn Engineering Professional Certificate in CS Essentials for Software Development](https://www.edx.org/professional-certificate/computer-science-essentials-software)
+### [PennX Computer Science Essentials for Software Development](https://www.edx.org/professional-certificate/computer-science-essentials-software)
 
 This course is part of the Computer Science Essentials for Software Development Professional program.
 
