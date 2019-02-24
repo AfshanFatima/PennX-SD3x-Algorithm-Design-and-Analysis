@@ -1,0 +1,18 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Run Final Tests": "clear; cd /home/codio/workspace/test; ./runtests.sh private",
+        "Run Your Tests": "clear; cd /home/codio/workspace/test; ./runtests.sh myTests"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain3000}}/",
+        "Box URL SSL": "https://{{domain3000}}/"
+  },
+  "autogradeTestScripts": [".guides/secure/runtests.sh",".guides/secure/autograde.sh"]
+}

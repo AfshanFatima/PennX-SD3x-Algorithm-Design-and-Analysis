@@ -35,11 +35,11 @@ O(m log n)
  
 Explanation: Recall that the runtime of BFS is , where n is the number of vertices and m is the number of edges in the graph. How many edges are in this new graph, now that each edge has been expanded into a path?
 
-Problem 3
+**Problem 3**
 
 If W is a number that can be expressed in binary with at most 100 bits, will this algorithm finish in time $100 m$ in the worst case? Answer YES or NO.
 
-Answer correct-  NO or No or no
+Answer correct:  NO or No or no
 
 Explanation:
 This is not a polynomial-time algorithm. W could be an exponentially large weight-value, with respect to n (i.e. the highest weight is equal to 2^n ). One source of confusion here is that W seems like it isn't being considered part of the input to the problem. Getting a little more technical, each of the m edges that are part of the input have associated with them a number (their weight). In general, a number of length n can be written down with a string of O(lgn) bits. If this weight is O(2^n) , then this number can be written down in O(lg(2^n)) = O(n) bits. Since the input size is still proportional to n and m, this algorithm is exponential in runtime.
