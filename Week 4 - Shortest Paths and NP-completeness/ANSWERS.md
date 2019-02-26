@@ -71,7 +71,7 @@ One way to try to get around the fact that Dijkstra's algorithm cannot handle ne
 
 (, ) = 4, (, ) = 2, (, ) = −1, (, ) = 1
 
-(, ) = 2, (, ) = 1, (, ) = −2, (, ) = 3 correct
+(, ) = 2, (, ) = 1, (, ) = −2, (, ) = 3 -correct
 
 (, ) = −1, (, ) = 2, (, ) = 1, (, ) = 2
 
